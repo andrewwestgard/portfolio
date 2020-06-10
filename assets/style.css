@@ -1,32 +1,26 @@
+/* Header */
 nav{
     margin-bottom: 1rem;
     position: fixed;
     padding-bottom: 0;
 }
+
 .justify-content-end{
     margin-right: 2rem;
 }
 .navbar-brand{
-    font-family: futura-pt, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
     font-size: 1.75;
 }
-#main-content{
-    background-color: white;
+
+.nav-item{
+    display: block;
 }
+
 p{
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    line-height: 1.5;
     margin-bottom: 0;
 }
-h5{
-    font-family: futura-pt, sans-serif;
-    font-weight: 550;
-    font-style: normal;
-}
+/* Main Content */
 body{
     background-color: lightgray;
 }
@@ -36,7 +30,17 @@ body{
 .img{
     width: 50px;
     height: 50px;
+    margin: 1rem;
+    justify-content: center;
 }
+.banner{
+    width: 260px;
+    height: 2.5rem;
+    background: #303030;
+    color: white;
+    text-align: center;
+}
+/* Footer */
 footer {
     line-height: 100px;
     position: fixed;
@@ -50,20 +54,9 @@ footer {
     z-index: -1;
     color: white;
 }
-h4{
-    font-family: futura-pt, sans-serif;
-    font-weight: 550;
-    font-style: normal;
-    color: #330033;
-}
+/* Stylistic elements and layour */
 .col-sm-9{
     max-width: 100%;
-}
-figure{
-    height: .5rem;
-    width: 100%;
-    color: darkblue;
-    z-index: 0;
 }
 .text{
     width: 100%;
@@ -71,19 +64,31 @@ figure{
 .btn-primary{
     background-color: #330033;
 }
-button{
-    font-family: futura-pt, sans-serif;
-    font-weight: 550;
-    font-style: normal;
-}
-label{
+/* fonts and Type */
+label, h4, button, h5, .navbar-brand{
     font-family: futura-pt, sans-serif;
     font-weight: 550;
     font-style: normal;
     color: #330033;
 }
+.nav-link, p{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h5{
+    color: white;
+}
+p{
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+/* Media Query */
 @media screen and (min-width: 768px) {
-    .float-left{
-        float: left;
+    .flex{
+        display: flex;
+    }
+    .space{
+        margin: auto 1rem;
     }
   }

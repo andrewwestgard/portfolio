@@ -13,12 +13,15 @@
   </head>
   <body>
     <header>
+      <!-- Bootstrap Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="index.html">Andrew Westgard</a>
+          <!-- JavaScript Dropdown -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <!-- Nav Links -->
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
@@ -34,12 +37,15 @@
         </nav>
     </header>
       <main>
-        <section id="about">
+        <section id="contact">
+          <!-- Container creates margin for the card -->
             <div class="container">
+              <!-- 9 col takes up 2/3 page -->
                 <div class="card col-sm-9">
                     <div class="card-body">
                         <h4 class="card-title">Contact me</h4>
                         <hr>
+                        <!-- Begin contact form -->
                         <form>
                             <div class="form-group">
                               <label for="formGroupExampleInput">Name</label>
@@ -49,7 +55,12 @@
                               <label for="formGroupExampleInput2">Email</label>
                               <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
                               <label for="defaultFormMessageModalEx" class="mt-2">Your message</label>
+                              <!-- Responsive textarea I found on the internet -->
                               <textarea type="text" id="defaultFormMessageModalEx" class="md-textarea form-control"></textarea>
+                              <!-- Method GET so I can link to a php file ;) #sike i am not 100 years old. Why does the JavaScript developer not want to leave his house?
+                              .....
+                              .....
+                              Because of all the bugs :) -->
                               <button type="button" class="btn btn-primary btn-lg mt-3" method="GET">Submit</button>
                             </div>
                           </form>
@@ -58,20 +69,11 @@
                 </div>
             </div>
         </section>
+        <!-- Footer -->
         <footer>
             <p class="footer">&copy; Copyright</p>
         </footer>
-
-
       </main>
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
