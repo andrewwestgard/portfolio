@@ -1,0 +1,80 @@
+h1, h2, h3, h4, h5 {
+  font-family: futura-pt,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p{
+  font-family: futura-pt,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+form{
+  font-family: futura-pt,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+label{
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn{
+  background-color: #301934;
+  font-family: futura-pt,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  padding: .5rem 2rem;
+  border: none;
+}
+
+.masthead h1 {
+  color: white;
+}
+
+em {
+  color: white;
+  font-size: 20px;
+  font-family: roboto;
+}
+
+
+.btn.btn-dark.btn-xl.js-scroll-trigger {
+  background-color: #301934;
+}
+
+#services {
+  background-color: #301934 !important;
+}
+
+#services {
+  background-color: #301934;
+}
+
+
+.d-flex.masthead {
+  background-color: #301934 !important;
+}
+
+.contact{
+
+}
+
+.navbar-light{
+  background-color: #301934 !important;
+  color: white !important;
+}
+
+nav{
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form{
+  margin-top: 3rem;
+}
