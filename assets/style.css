@@ -20,6 +20,11 @@ p{
     line-height: 1.5;
     margin-bottom: 0;
 }
+h3{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 /* Main Content */
 body{
     background-color: lightgray;
@@ -32,6 +37,14 @@ body{
     height: 50px;
     margin: 1rem;
     justify-content: center;
+}
+.img-thumbnail{
+    height: 250px;
+    width: 250px;
+}
+.port{
+    height: 150px;
+    margin: 1rem;
 }
 .banner{
     width: 260px;
